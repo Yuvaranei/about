@@ -1,5 +1,5 @@
 {
-  "name": "about-me",
+  "name": "basic-react-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,29 +8,21 @@
     "dev": "webpack-dev-server",
     "build": "webpack -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yuvaranei/about.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yuvaranei/about/issues"
-  },
-  "homepage": "https://github.com/Yuvaranei/about#readme",
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.4",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
   }
 }

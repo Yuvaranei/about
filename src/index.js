@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const Index = () => {
     return(
-        <div>Page is under development...</div>
+        <div>Hello !!!</div>
     )
 }
 

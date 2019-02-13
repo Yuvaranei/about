@@ -5,7 +5,7 @@ module.exports = {
     entry: "./src/index.js",
     output : {
         path : path.resolve(__dirname,'dist'),
-        filename : "about-me-bundler.js"
+        filename : "basic-setup-bundler.js"
     },
     mode : "development",
     module :{
@@ -20,6 +20,6 @@ module.exports = {
         ]
     },
     plugins : [new HtmlWbpackPlugin({
-        template : './src/index.html'
+        template : './index.html'
     })]
 }
