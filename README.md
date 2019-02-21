@@ -2,6 +2,6 @@
 
 ### Language
 
-- [*] JavaScript
+- [ ] JavaScript
 - [X] React
 - [x] SASS
